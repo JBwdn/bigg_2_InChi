@@ -12,8 +12,8 @@ from requests import get  # send html get requests to BIGG
 import json  # parse json format queries from BIGG
 
 
-INPUT_CSV_PATH = "allMetabolitesiAA1259.csv"
-OUTPUT_CSV_PATH = "allMetabolitesiAA1259_new.csv"
+INPUT_CSV_PATH = "example.csv"
+OUTPUT_CSV_PATH = "example_out.csv"
 
 BIGG_API_URL = "http://bigg.ucsd.edu/api/v2/universal/metabolites/"
 
